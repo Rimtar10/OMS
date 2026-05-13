@@ -3,17 +3,7 @@ package com.tradeoms.model;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-/**
- * Abstract base class for all orders.
- *
- * WHY ABSTRACT?
- * A plain "Order" should never exist on its own — it must always
- * be either a BuyOrder or a SellOrder. Making it abstract enforces
- * this at the language level and demonstrates OOP to reviewers.
- *
- * Subclasses only need to define their OrderType — all shared
- * fields (price, quantity, status, timestamps) live here.
- */
+
 public abstract class Order {
 
     private long id;                    // set by DB after save

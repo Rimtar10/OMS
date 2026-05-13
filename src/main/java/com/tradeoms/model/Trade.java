@@ -3,14 +3,7 @@ package com.tradeoms.model;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-/**
- * A Trade is created when a BuyOrder successfully matches a SellOrder.
- * It is the record of an actual transaction that happened.
- *
- * Think of it this way:
- *   Order = "I want to buy 10 AAPL at $150"  (intent)
- *   Trade = "10 AAPL were bought at $150"     (execution)
- */
+
 public class Trade {
 
     private long id;

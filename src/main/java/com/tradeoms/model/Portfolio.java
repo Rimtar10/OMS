@@ -3,12 +3,7 @@ package com.tradeoms.model;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-/**
- * Represents a user's holding in a specific instrument.
- * Tracks quantity owned and the average price paid (for P&L calculation).
- *
- * P&L (Profit & Loss) = (currentPrice - avgPrice) * quantity
- */
+
 public class Portfolio {
 
     private long id;

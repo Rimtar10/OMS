@@ -1,9 +1,6 @@
 package com.tradeoms.model;
 
-/**
- * Represents a tradeable financial instrument (e.g. a stock or bond).
- * This is what orders are placed against — e.g. "Buy 10 shares of AAPL".
- */
+
 public class Instrument {
 
     private String id;      // e.g. "AAPL"
